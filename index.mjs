@@ -3,6 +3,7 @@ import fetch from 'node-fetch';
 const webhookURL = 'https://discord.com/api/webhooks/1315285372904931330/xSAadXlEcY81SuUVxoXxRABMEir6L3OXxEZLX60LqUjS0_GVB34lJ_umna3GEG_lz1ch';
 const targetDate = new Date('July 18, 2025 00:00:00').getTime();
 
+
 function calculateTimeLeft() {
     const now = new Date().getTime();
     const timeLeft = targetDate - now;
